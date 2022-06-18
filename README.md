@@ -11,3 +11,4 @@ Know error's / things to get make better
 
 1. .capitalize Student and Teacher strings
 2. classes not in right order
+3. fixing classes anf methods as they are mixed up and don't work like I want them to 

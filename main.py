@@ -1,17 +1,30 @@
 # Main file
 import Date
-import Grade
 import Student
 import Subjects
-import Teacher
+import Grade
 import Text
+import Teacher
 
 
 class Main:
-    Date
-    Student
-    Subjects
-    Grade
-    Text
-    Teacher
+    def getdate(self):
+        return Date
 
+    def student(self):
+        return Student
+
+    def subject(self):
+        return Subjects
+
+    def grade(self):
+        return Grade
+
+    def text(self):
+        return Text
+
+    def teacher(self):
+        return Teacher
+
+
+print(f"{Date} {Student} {Subjects} {Grade} {Text} {Teacher} ")

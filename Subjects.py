@@ -16,8 +16,8 @@ class Subjects:
     elif subject == "Sport" or "sport":
         print(f"{sb} {subject}")
     elif subject == "Chemistry" or "chemistry":
-        print(f"{sb} {subject}")
+        (f"{sb} {subject}")
     elif subject == "Art" or "art":
-        print(f"{sb} {subject}")
+        (f"{sb} {subject}")
     else:
         print("Please enter a valid Subject")
