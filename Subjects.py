@@ -1,0 +1,2 @@
+class Subjects:
+    subject = input()
