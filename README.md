@@ -2,13 +2,5 @@
 
 My attempt to make a program in python 
 
-The final project should be a program that makes writing grades easier for teacher, the whole program will be open source as in my opinion, school should be as 
-easy possible 
+It takes the name and infos of an student aswell as its grade an subject, it ends with the name of the teacher 
 
-readme will be updated as soon I got some code init 
-
-Know error's / things to get make better
-
-1. .capitalize Student and Teacher strings
-2. classes not in right order
-3. fixing classes anf methods as they are mixed up and don't work like I want them to 
