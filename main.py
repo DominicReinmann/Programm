@@ -1,30 +1,55 @@
 # Main file
-import Date
-import Student
-import Subjects
-import Grade
-import Text
-import Teacher
+import datetime
 
 
 class Main:
-    def getdate(self):
-        return Date
+    @staticmethod
+    def date():
+        now = datetime.datetime.now()
+        day = now.strftime("%d")
+        month = now.strftime("%m")
+        year = now.strftime("%y")
+        date = f"{day}.{month}.{year}"
+        return date
 
-    def student(self):
-        return Student
+    @staticmethod
+    def student():
+        name = input("Student name ")
+        surname = input("Student surname ")
+        dob = input("Student birthdate ")
+        student = f"{name} {surname} {dob}"
+        st = student.capitalize()
+        return st
 
-    def subject(self):
-        return Subjects
+    @staticmethod
+    def subjects():
+        subjects = input("Enter subject ")
+        subject = subjects.capitalize()
+        return subject
 
-    def grade(self):
-        return Grade
+    @staticmethod
+    def grade():
+        grade: str = input("Grade of Student ")
+        gd: float = float(grade)
+        return gd
 
-    def text(self):
-        return Text
+    @staticmethod
+    def text():
+        text = input("Enter text here ")
+        txt = text.capitalize()
+        return txt
 
-    def teacher(self):
-        return Teacher
+    @staticmethod
+    def teacher():
+        name = input("Teacher name ")
+        surname = input("Teacher surname ")
+        fullname = f"{name} {surname}"
+        ns = fullname.capitalize()
+        return "Signed " + ns
 
-
-print(f"{Date} {Student} {Subjects} {Grade} {Text} {Teacher} ")
+    print(date(),
+          "\n", student(),
+          "\n", subjects(),
+          "\n", grade(),
+          "\n", text(),
+          "\n", teacher())
